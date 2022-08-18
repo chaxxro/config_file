@@ -30,7 +30,7 @@ map("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", opt)
 -- -v 反转匹配
 -- -g 通配符文件或文件夹，可以用!来取反
 -- -F fixed-string 原意字符串，类似python的 r'xxx'
-map("n", "<leader>fg", "<cmd>Telescope live_grep_raw<cr>", opt)
+map("n", "<leader>fg", "<cmd>Telescope live_grep_args<cr>", opt)
 -- Lists LSP references for word under the cursor
 map("n", "<leader>fr", "<cmd>Telescope lsp_references<cr>", opt)
 -- bookmark's

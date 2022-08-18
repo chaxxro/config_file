@@ -1,7 +1,6 @@
 #!/bin/bash
 
 now=`pwd`
-echo ${now}
 
 conf_path=~/.config
 nvim_path=${conf_path}/nvim

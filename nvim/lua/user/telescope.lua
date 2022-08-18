@@ -72,5 +72,5 @@ telescope.setup {
 }
 
 telescope.load_extension('vim_bookmarks')
-telescope.load_extension('live_grep_raw')
+telescope.load_extension('live_grep_args')
 

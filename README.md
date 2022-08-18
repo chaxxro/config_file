@@ -57,11 +57,11 @@ git checkout origin/release-0.7
 sudo yum -y install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch gettext curl
 
 # ninja 默认并行编译
-make CMAKE_BUILD_TYPE=Release
-make CMAKE_INSTALL_PREFIX=/usr/local/nvim install
+make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=/usr/local/nvim install
 
 # 安装 npm，lsp 会用到
 wget https://nodejs.org/dist/v16.6.2/node-v16.6.2-linux-x64.tar.gz
+x node-v16.6.2-linux-x64.tar.gz
 mv node-v16.6.2-linux-x64 /usr/local/node
 ln -sf /usr/local/node/bin/node /usr/local/bin/node
 ln -sf /usr/local/node/bin/npm /usr/local/bin/npm
