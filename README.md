@@ -89,7 +89,7 @@ yum install -y clang
 
 # 图标美化
 # 服务器安装 nerd font
-git clone https://github.com/ryanoasis/nerd-fonts.git -depth 1
+git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
 ./install.sh Hack
 # Mac 安装 nerd font
 brew tap homebrew/cask-fonts
