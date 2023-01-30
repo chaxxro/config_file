@@ -12,8 +12,8 @@ local opt = {
 }
 
 -- magic search
-map("n", "/", "/\\v", { noremap = true , silent = false})
-map("v", "/", "/\\v", { noremap = true , silent = false})
+map("n", "/", "/\\v", { noremap = true, silent = false })
+map("v", "/", "/\\v", { noremap = true, silent = false })
 
 -- Navigate buffers
 map("n", "<S-l>", ":bnext<CR>", opt)
@@ -40,8 +40,8 @@ map("n", "<leader>fma", "<cmd>Telescope vim_bookmarks all<cr>", opt)
 -- git diff view
 -- Navigation
 map('n', '<S-j>', ':Gitsigns next_hunk<CR>', opt)
-map('n', '<S-k>',':Gitsigns prev_hunk<CR>', opt)
--- Actions 
+map('n', '<S-k>', ':Gitsigns prev_hunk<CR>', opt)
+-- Actions
 -- #map('n', '<leader>hs', ':Gitsigns stage_hunk<CR>')
 map('n', '<leader>hr', ':Gitsigns reset_hunk<CR>', opt)
 map('n', '<leader>hp', '<cmd>Gitsigns preview_hunk<CR>', opt)
